@@ -373,10 +373,10 @@
 					</div>
 					<div class="section-content experiments">
 						To verify the effectiveness of our model components, we conduct ablation experiments by removing specific modules and training methods. These models include:
-						</br> 1) <b>&nbsp;&nbsp;-w/o context</b>: A Chain-Talker variant without dialog history H, it predicts caption and renders speech directly from the given target utterance.
-						</br> 2) <b>&nbsp;&nbsp;-w/o captions</b>: A CosyVoice variant, similar to GPT-Talker, where the input part includes various modal information from the dialogue history in addition to the target sentence, but without empathetic captions.
-						</br> 3) <b>&nbsp;&nbsp;-w/o L<sup>caption</sup></b>: Removing the loss function about emotion understanding.
-						</br> 4) <b>&nbsp;&nbsp;-w/o First-Stage</b>: Training Chain-Talker directly on the NCSSD-EmCap dataset.
+						</br> 1) <b>w/o context</b>: A Chain-Talker variant without dialog history H, it predicts caption and renders speech directly from the given target utterance.
+						</br> 2) <b>w/o captions</b>: A CosyVoice variant, similar to GPT-Talker, where the input part includes various modal information from the dialogue history in addition to the target sentence, but without empathetic captions.
+						</br> 3) <b>w/o L<sup>caption</sup></b>: Removing the loss function about emotion understanding.
+						</br> 4) <b>w/o First-Stage</b>: Training Chain-Talker directly on the NCSSD-EmCap dataset.
 					</div>
 					<div class="section-content">
 						<div class="subsection-exp-1">
